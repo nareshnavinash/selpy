@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: selpy
-Version: 0.0.1
+Version: 0.0.3
 Summary: Package to hold driver and locator methods for selenium
 Home-page: https://github.com/nareshnavinash/SePy-Module
 Author: Naresh Sekar
@@ -12,10 +12,14 @@ Description: # Se-Py Package
         
         python3 setup.py sdist bdist_wheel
         
+        python3 -m twine upload -u <username> -p <password> --repository-url https://upload.pypi.org/legacy/ dist/* --verbose
         
+Keywords: POM,Selenium_POM,Selenium_pytest_POM,Page_Object_Model
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
 Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown

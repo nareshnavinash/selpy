@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d9ce6db-1b97-45a5-8f53-62882e423ab7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/selpy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SePy-Module.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SePy-Module.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md " beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/selpy-0.0.1-py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/selpy-0.0.1.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selpy.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/selpy.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selpy.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/selpy.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selpy.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/selpy.egg-info/top_level.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +59,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="563" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579520505034">
+    <state x="563" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579524973512">
       <screen x="0" y="23" width="1680" height="990" />
     </state>
-    <state x="563" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.990@0.23.1680.990" timestamp="1579520505034" />
+    <state x="563" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.990@0.23.1680.990" timestamp="1579524973512" />
   </component>
 </project>
