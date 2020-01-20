@@ -1,6 +1,0 @@
-README.md
-setup.py
-SePy.egg-info/PKG-INFO
-SePy.egg-info/SOURCES.txt
-SePy.egg-info/dependency_links.txt
-SePy.egg-info/top_level.txt
