@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: selpy
+Version: 0.0.1
+Summary: Package to hold driver and locator methods for selenium
+Home-page: https://github.com/nareshnavinash/SePy-Module
+Author: Naresh Sekar
+Author-email: nareshnavinash@gmail.com
+License: UNKNOWN
+Description: # Se-Py Package
+        
+        python3 -m pip install --user --upgrade setuptools wheel
+        
+        python3 setup.py sdist bdist_wheel
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

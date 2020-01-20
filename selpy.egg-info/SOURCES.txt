@@ -1,0 +1,6 @@
+README.md
+setup.py
+selpy.egg-info/PKG-INFO
+selpy.egg-info/SOURCES.txt
+selpy.egg-info/dependency_links.txt
+selpy.egg-info/top_level.txt

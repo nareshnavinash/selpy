@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="SePy", # Replace with your own username
+    name="selpy", # Replace with your own username
     version="0.0.1",
     author="Naresh Sekar",
     author_email="nareshnavinash@gmail.com",

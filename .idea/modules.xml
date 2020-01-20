@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SePy-Module.iml" filepath="$PROJECT_DIR$/.idea/SePy-Module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SelPy-Module/.idea/SePy-Module.iml" filepath="$PROJECT_DIR$/../SelPy-Module/.idea/SePy-Module.iml" />
     </modules>
   </component>
 </project>
