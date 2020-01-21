@@ -3,8 +3,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.remote import webelement
-from src.variable import Var
-from src.store import Store
+from selpy.variable import Var
+from selpy.store import Store
 
 
 class Driver:

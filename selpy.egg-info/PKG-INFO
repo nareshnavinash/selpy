@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: selpy
-Version: 0.0.3
+Version: 0.0.7
 Summary: Package to hold driver and locator methods for selenium
-Home-page: https://github.com/nareshnavinash/SePy-Module
+Home-page: https://github.com/nareshnavinash/selpy
 Author: Naresh Sekar
 Author-email: nareshnavinash@gmail.com
 License: UNKNOWN

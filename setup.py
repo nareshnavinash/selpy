@@ -10,16 +10,15 @@ install_requires = [
 ]
 
 setuptools.setup(
-    name="selpy", # Replace with your own username
-    version="0.0.3",
+    name="selpy",
+    version="0.0.7",
     author="Naresh Sekar",
     author_email="nareshnavinash@gmail.com",
     description="Package to hold driver and locator methods for selenium",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/nareshnavinash/SePy-Module",
+    url="https://github.com/nareshnavinash/selpy",
     packages=setuptools.find_packages(),
-    scripts=['bin/selpy.py'],
     keywords = ['POM', 'Selenium_POM', 'Selenium_pytest_POM', 'Page_Object_Model'],
     classifiers=[
         "Programming Language :: Python :: 3",

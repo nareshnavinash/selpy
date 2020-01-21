@@ -2,7 +2,7 @@ from selenium.webdriver import ActionChains
 import selenium.webdriver.support.ui as ui
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.remote import webelement
-from src.store import Store
+from selpy.store import Store
 
 
 class Locator(Store):
