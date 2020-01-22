@@ -5,6 +5,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.remote import webelement
 from selpy.variable import Var
 from selpy.store import Store
+import time
 
 
 class Driver:
@@ -103,3 +104,11 @@ class Driver:
 
     def close_current_tab(self):
         self.driver.close()
+
+    def wait_till_page_loads(self, timeout=12):
+        for i in range(0, timeout):
+            page_state = self.driver.execute_script('return document.readyState;')
+            if page_state == 'complete':
+                return True
+            time.sleep(1)
+        return False
