@@ -4,6 +4,7 @@ from selenium import webdriver
 class Store:
     drivers = []
     current_driver = None
+    current_browser = None
     static_data_path = None
     dynamic_data_path = None
     global_data_path = None

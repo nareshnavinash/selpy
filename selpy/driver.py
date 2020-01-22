@@ -50,6 +50,7 @@ class Driver:
             options.add_argument("--disable-extensions")
             self.driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
         Store.push(self.driver)
+        Store.current_browser = browser
 
     def get(self, url: str) -> None:
         self.driver.get(url)

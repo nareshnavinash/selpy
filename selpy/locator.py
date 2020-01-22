@@ -51,8 +51,15 @@ class Locator(Store):
             return txt_value
 
     def select(self, string):
-        select = Select(Store.current_driver.find_element(self.by, self.value))
-        select.select_by_visible_text(string)
+        if Store.current_browser == "firefox":
+            select = Store.current_driver.find_element(self.by, self.value)
+            Store.current_driver.execute_script("var select = arguments[0]; for(var i = 0; "
+                                                "i < select.options.length; i++){ if(select.options[i].text "
+                                                "== arguments[1]){ select.options[i].selected = true; } }", select,
+                                                string)
+        else:
+            select = Select(Store.current_driver.find_element(self.by, self.value))
+            select.select_by_visible_text(string)
 
     def get_attribute(self, name) -> str:
         try:
