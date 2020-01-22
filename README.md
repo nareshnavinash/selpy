@@ -1,13 +1,3 @@
-# Se-Py Package
-
-python3 -m pip install --user --upgrade setuptools wheel
-
-python3 setup.py sdist bdist_wheel
-
-python3 -m twine upload -u <username> -p <password> --repository-url https://upload.pypi.org/legacy/ dist/* --verbose
-
-
-
 # Selpy
 
 Selpy module is to have all the common methods that will be used in functional UI automation in Page Object Model. Selpy also powered to have snapshot feature that will save the data from UI to a file if needed. This in turn reduces the test data maintenance efforts.
@@ -131,6 +121,23 @@ def pytest_configure(config):
     Store.static_data_path = os.path.dirname(os.path.abspath(__file__)).replace("/Tests", "") + '/Data/TestData/'
     Store.dynamic_data_path = os.path.dirname(os.path.abspath(__file__)).replace("/Tests", "") + '/Data/DynamicData/'
 ``` 
+
+## To publish a module in pypi
+
+1. Install the following dependencies
+```
+python3 -m pip install --user --upgrade setuptools wheel
+```
+2. In the root directory of your newly created module run,
+```
+python3 setup.py sdist bdist_wheel
+```
+3. Then add the username and password and upload to the pypi server,
+```
+python3 -m twine upload -u <username> -p <password> --repository-url https://upload.pypi.org/legacy/ dist/* --verbose
+```
+Ensure that you have deleted the old files from your dist directory.
+
 
 ## Contributing
 
