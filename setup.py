@@ -11,7 +11,7 @@ install_requires = [
 
 setuptools.setup(
     name="selpy",
-    version="0.1.0",
+    version="0.1.1",
     author="Naresh Sekar",
     author_email="nareshnavinash@gmail.com",
     description="Package to hold driver and locator methods for selenium",
